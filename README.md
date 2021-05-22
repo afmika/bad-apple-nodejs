@@ -12,6 +12,8 @@
 1. Each frame consists of an array of size `frame[i].length` 
 2. Each value `frame[i][j]` contains something like this `frame[i][j] <- (map_index << 24) | repeat_count` (stored inside a 32 bits integer).
 
+![Bad Apple Cover](cover/bad-apple.png)
+
 ## 1st Case : `frame[i][j] >= 0`
 ```
 color = value >> 24 // 0, 1 or 2
