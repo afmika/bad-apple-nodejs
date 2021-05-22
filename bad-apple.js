@@ -33,7 +33,7 @@ function readAfter (str, ms) {
 async function run () {
 	for (let frame of input['data']) {
 		const str = read (frame);
-		console.log(await readAfter (str, 1000 / 7));
+		console.log(await readAfter (str, 1000 / 11));
 	}
 }
 
