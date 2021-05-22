@@ -17,7 +17,7 @@
 color = value >> 24 // 0, 1 or 2
 repeat_count = value & 16777215
 ```
-- `map_index` tells us the color index : 0, 1 or 2 (bad apple contains 3 level of colors)
+- `map_index` tells us the color index : 0, 1 or 2 (this dataset contains 3 levels of color)
 - `repeat_count` tells us how many times we should render the current color
 
 ## 2nd Case : `frame[i][j] < 0`
