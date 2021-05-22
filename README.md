@@ -1,6 +1,6 @@
 # Bad Apple Dataset
-- I generated the optimized `bad-apple.json` dataset myself in order to process each frame quickly. 
-- This dataset contains `658` frames which means you should render it at a maximum rate of `2 fps`.
+- `bad-apple.json` is an optimized dataset I generated myself in order to process each frame quickly. 
+- This dataset contains `2191` frames which means you should render it at a maximum rate of `10 fps`.
 - The dataset itself weighs arround `784Ko`
 
 ```javascript
